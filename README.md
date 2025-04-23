@@ -2,25 +2,46 @@
 
 A stunning space journey animation for Adafruit Matrix Portal M4 with LED matrix displays, simulating a complete rocket launch, space travel, and moon landing sequence.
 
+![Launch Animation](screenshots/IMG_8557.JPEG)
+
 ## Overview
 
 This project creates a captivating animated sequence on a 64x32 RGB LED matrix, taking viewers through a complete space mission from countdown to flag planting on the moon. The animation runs in a continuous loop and features multiple distinct phases with smooth transitions.
 
 ## Animation Sequence
 
+Watch the full animation in action:
+
+<div align="center">
+  <video width="640" height="360" controls>
+    <source src="screenshots/IMG_8561.MP4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
+
 The animation proceeds through these phases:
 
 1. **Countdown (6 seconds)** - Classic 5-4-3-2-1-0 countdown with large black numerals
+   
+   ![Countdown Phase](screenshots/IMG_8558.JPEG)
+
 2. **Launch (3 seconds)** - Rocket lifts off with the ground descending as space is revealed
 3. **Space Travel (5 seconds)** - Rocket travels through star-filled space
 4. **Moon Landing (4-5 seconds)** - Rocket descends to land on the moon's surface
+   
+   ![Moon Landing](screenshots/IMG_8559.JPEG)
+
 5. **Astronauts (8 seconds)** - Two astronauts exit the rocket and bounce around on the moon
 6. **Flag Planting (5 seconds)** - Astronauts move to plant a flag at the moon's edge
 7. **Final Message (7-8 seconds)** - "ONE SMALL STEP FOR VON HOLTEN" scrolls in rainbow colors
+   
+   ![Final Message](screenshots/IMG_8560.JPEG)
 
 Total animation cycle: ~40 seconds
 
 ## Hardware Requirements
+
+![Hardware Setup](screenshots/IMG_8557.JPEG)
 
 ### Components
 - **Microcontroller**: Adafruit Matrix Portal M4
